@@ -12,9 +12,9 @@ This is an automation script to perform a trivial yet common task: backup databa
 #### How this works
 1. Lists all user databases from a given SQL Server instance
 2. Backups all user databases
-3. Verifies all backups as valid
+3. Verifies all backups are valid
 4. Compresses all backups (using 7zip)
-5. Uploads compressed backups via FTP (using WinSCP)
+5. Uploads compressed backups to an FTP virtual directory (using WinSCP)
 6. Sends email notification to intended recipients about task completion
 #### Usage
 1. Create your FTP credential (See `Create-FTPcred.ps1`) and make sure the account has proper write permissions
