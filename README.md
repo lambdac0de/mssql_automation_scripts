@@ -21,5 +21,5 @@ This is an automation script to perform a trivial yet common task: backup databa
 2. Ensure `config.ini` is properly populated with correct config values (SQL Server, FTP, and Email settings)
 3. Review `.\Res` folder and ensure all prerequisites are there
 4. Make a `Log` folder in the program root, or change log path in variable `$global:LOGPATH`
-5. Run the program, or schedule as needed<br><br>
+5. Run `sql_backup.ps1`, or schedule as needed<br><br>
 <b>Note</b> It is assumed that the user (service) account runing the script has appropriate permission on the target MSSQL server. The script will use integrated authentication using the impersonated user context.
