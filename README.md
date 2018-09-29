@@ -3,7 +3,7 @@ This repository contains scritps to automate common tasks and workflows associat
 <b>WARNING:</b> This repository mostly contains a set of automation scripts I developed in 2015. The growth of PowerShell has been rapid since then, so there are most likely better, more efficient, ways of doing the same implementations.
 ## mssql_backup_automation
 #### What is this?
-This is an automation script to perform a trial yet common task: backup databases, compress them, and upload to an FTP server. This provides a very simple, yet effective, backup and DR solution for MS SQL databases without a need for expensive enterprise solutions.
+This is an automation script to perform a trivial yet common task: backup databases, compress them, and upload to an FTP server. This provides a very simple, yet effective, backup and DR solution for MS SQL databases without a need for expensive enterprise solutions.
 #### Prerequisites
 1. 7zip binaries (included)
 2. sqlps module (included)
